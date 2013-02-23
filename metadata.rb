@@ -1,0 +1,10 @@
+name             'virtualmin'
+maintainer       'Steven Barre'
+maintainer_email 'steven@realestatewebmasters.com'
+license          'Apache 2.0'
+description      'Installs/Configures virtualmin'
+long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
+version          '0.1.0'
+depends          'selinux'
+supports         'rhel', '>= 5.0'
+supports         'centos', '>= 5.0'
